@@ -1,0 +1,95 @@
+:root{
+	--IGwhite: hsl(0, 0%, 100%); 
+	--IGoffwhite: hsl(0, 0%, 90%); 
+	--IGgrey: hsl(0, 0%, 85%); 
+	--IGdarkgrey: hsl(0, 0%, 45%); 
+	--IGblack: hsl(0, 0%, 15%); 
+	--IGred: hsl(355, 100%, 60%);
+	--IGblue: hsl(204, 100%, 48%);
+	--IGhovergrey: hsla(0, 0%, 15%, 0.2); 
+	--font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+} 
+
+.main_istgReel{
+	width:400px;
+	height:865px;
+	margin: 0 auto;
+	background-color: var(--IGblack);
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+.info_istgReel{
+	width:100%;
+	padding: 10px;
+	margin-top: 10px;
+}
+.photo_istgReel{
+	width: 100%;
+	height: 800px;
+	background-size: auto 100%;
+	border-radius: 15px;
+}
+
+.lines_istgReel{
+	padding-top: 10px;
+	width: 95%;
+	margin: auto;
+}
+.line_istgReel{
+	width: 32%;
+	height: 3px;
+	float: left;
+	margin:2px;
+	background-color: var(--IGoffwhite);
+}
+.icon_istgReel{
+	width: 50px;
+	height: 50px; 
+	border-radius:25px;
+	background-size:100% auto;
+	float: left;
+}
+.pseudo_istgReel{
+	font-family: var(--font-family-system);
+	font-size: 1em;
+	font-weight: 200;
+	color: var(--IGwhite);
+	float: left;
+	width:75%;
+	height: 50px;
+	padding: 0 0 0 20px;
+	line-height:50px;
+}
+.hour_istgReel{
+	font-siwe: 0.9em;
+	color: var(--IGoffwhite);
+	padding-left:10px;
+}
+.burger_istgReel{
+	float: left;
+	color: var(--IGwhite);
+	width: 1.5em;
+	font-size: 1.4em;
+	line-height: 50px;
+	height:50px;
+}
+.message_istgReel{
+	width: 69%;
+	height:45px;
+	border-radius:23px;
+	font-size: 0.9em;
+	font-family: var(--font-family-system);
+	border: 1px solid var(--IGoffwhite);
+	border-color: var(--IGoffwhite);
+	color: var(--IGwhite);
+	margin: 10px;
+	padding-left: 30px;
+	float: left;
+	line-height:45px;
+}
+.iconMessage_istgReel{
+	width: 24%;
+	padding-left: 20px;
+	font-size:1.5em;
+	float: left;
+}
