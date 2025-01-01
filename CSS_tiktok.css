@@ -139,6 +139,9 @@
 	overflow: auto;
 	border-radius: 0 0 10px 10px;
 }
+.rowImg_TT{
+	overflow: hidden;
+}
 .img_TT{
 	width:33.33%;
 	height:210px;
